@@ -1,5 +1,5 @@
 //For using .env variables
-//require('dotenv').config();
+require('dotenv').config();
 
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('node:path')
