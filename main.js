@@ -1,5 +1,7 @@
 //For using .env variables
 require('dotenv').config();
+//For auto-update when it starts
+require('update-electron-app')()
 
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('node:path')
